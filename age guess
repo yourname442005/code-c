@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+   char n,p,c;
+   int b;
+   printf("enter the name: \n");
+   scanf("%s",&n);
+   printf("enter the programm: \n");
+   scanf("%s",&p);
+   printf("enter the email id: \n");
+   scanf("%s",&c);
+   printf("enter the age of the user: \n");
+   scanf("%d",&b);
+   printf("the calculated age of the user=%d",2023-b);
+   
+}
