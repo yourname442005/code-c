@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+  int a;
+printf("a=%d,%p\n",a,&a);
+printf("enter the new vALUE OF a");
+scanf("%d",&a);
+printf("the new val of a is= %d",a);
+  }
