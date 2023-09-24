@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("enter the value of a,b");
+scanf("%d%d",&a,&b);
+printf("\nsum=%d",a+b);
+printf("\nsub=%d",a-b);
+printf("\nmulti=%d",a*b);
+printf("\ndivi=%d",a/b);
+}
