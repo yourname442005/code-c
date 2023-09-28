@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int n ,temp=0,i;
+    printf("enter the vakue of n: ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    if(n%i==0)
+    {
+        temp++;
+        
+    }
+     if(temp==2)
+    {
+        printf(" prime");
+        
+    }
+    else
+    {
+        printf(" not a prime");
+        
+    }
+}
