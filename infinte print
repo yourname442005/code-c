@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    l1:
+    printf("hello world\n");
+    printf("enter the numebr ");
+    scanf("%d",&n);
+    if(n!=-1)
+    {
+        goto l1;
+        
+    }
+    else
+    {
+        printf("NOPE");
+        
+    }
+}
