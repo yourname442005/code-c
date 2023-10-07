@@ -1,0 +1,14 @@
+#include<stdio.h>
+void message();/*function declaration*/
+int main()
+{
+    message();/*function calling*/
+    printf("even in the same person...\n");
+    return 0;
+    
+}
+void message()/*function defination*/
+{
+    printf("we cant find the same person twice ...\n");
+    
+}
